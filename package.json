@@ -10,6 +10,12 @@
   "files": [
     "eslint.config.mjs"
   ],
+  "scripts": {
+    "prepublishOnly": "bun run lint",
+    "lint": "eslint .",
+    "publish:dry": "npm publish --dry-run",
+    "publish:release": "npm publish --access public"
+  },
   "keywords": [
     "eslint",
     "eslint config",
