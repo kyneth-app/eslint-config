@@ -1,4 +1,4 @@
-# @kyneth/eslint-config
+# @kyneth-app/eslint-config
 
 Shared ESLint configuration for Kyneth projects.
 
@@ -15,7 +15,7 @@ This package provides a consistent code style and linting rules across all Kynet
 ## Installation
 
 ```bash
-npm install --save-dev @kyneth/eslint-config
+npm install --save-dev @kyneth-app/eslint-config
 ```
 
 ### Peer Dependencies
@@ -33,7 +33,7 @@ npm install --save-dev eslint @nuxt/eslint-config @stylistic/eslint-plugin eslin
 Create an `eslint.config.mjs` file in your project root:
 
 ```js
-import kynethConfig from '@kyneth/eslint-config'
+import kynethConfig from '@kyneth-app/eslint-config'
 
 export default kynethConfig
 ```
@@ -43,7 +43,7 @@ export default kynethConfig
 For projects with custom directory structures, use the configuration function:
 
 ```js
-import { createKynethEslintConfig } from '@kyneth/eslint-config'
+import { createKynethEslintConfig } from '@kyneth-app/eslint-config'
 
 export default createKynethEslintConfig({
   dirs: ['./playground', './custom-dir']
