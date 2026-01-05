@@ -5,7 +5,7 @@ import importX from 'eslint-plugin-import-x'
 
 /**
  * Shared ESLint config for Kyneth projects
- * @param {Object} options - Configuration options
+ * @param {object} options - Configuration options
  * @param {string[]} options.dirs - Additional directories to lint (e.g., ['./playground'])
  */
 export function createKynethEslintConfig(options = {}) {
